@@ -1,0 +1,1 @@
+Simple clock app implemented with React hooks. Shows current time and date, updates every second.

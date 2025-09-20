@@ -56,7 +56,7 @@ const mainTsx = safeRead('src/main.tsx');
   ].join('\n');
 
   const msg = await client.messages.create({
-    model: 'claude-3-5-sonnet-20241220',
+    model: 'claude-3-5-sonnet-20241022',
     max_tokens: 3000,
     temperature: 0.2,
     system,
